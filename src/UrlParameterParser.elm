@@ -35,8 +35,7 @@ init maybeID = ...
 
 # Return type
 @docs ParseResult
-
- -}
+-}
 
 import Dict exposing (Dict)
 import String
@@ -45,14 +44,14 @@ import UrlParseUtil exposing (..)
 {-| If parsing is successful, you get a UrlParams containing a dictionary of keys to values.
 Otherwise, an error string.
 If there are no parameters, you'll get an error description.
- -}
+-}
 type ParseResult
   = Error String
   | UrlParams (Dict String String)
 
 {-| Given a search string of the form "?key=value&key2=val2"
 parse these into a dictionary of key to value.
- -}
+-}
 parseSearchString : String -> ParseResult
 parseSearchString startsWithQuestionMarkThenParams =
   case (String.uncons startsWithQuestionMarkThenParams) of
