@@ -17,7 +17,7 @@ For instance, in the web page:
 
 in YourModule.elm, declare the port and then parse what comes into it. This example discards errors:
 
-```
+```elm
 import Dict exposing (Dict)
 
 port locationSearch : String
@@ -32,7 +32,7 @@ parameters =
 Then use that dict when you call your init function that needs the value
 of the parameter.
 
-```
+```elm
 init (Dict.get parameters "customerID")
 
 init : Maybe String -> Model
@@ -44,4 +44,3 @@ init maybeID = ...
 The example app is built into this repo.
 [source](https://github.com/jessitron/elm-param-parsing/tree/ui);
 [result](http://jessitron.github.io/elm-param-parsing)
-
