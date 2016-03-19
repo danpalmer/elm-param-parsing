@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.0",
     "summary": "Reupload for 0.16, original by jessitron, amitaibu, and andybalaam",
     "repository": "https://github.com/danpalmer/elm-param-parsing.git",
     "license": "BSD3",
