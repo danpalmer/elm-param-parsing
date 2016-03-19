@@ -1,7 +1,7 @@
 {
     "version": "1.0.1",
-    "summary": "(Currently failed) attempt at 0.16ing jessitron + amitaibu",
-    "repository": "https://github.com/andybalaam/elm-param-parsing.git",
+    "summary": "Shameless rip-off from jessitron, amitaibu, and andybalaam, re-uploaded for 0.16",
+    "repository": "https://github.com/danpalmer/elm-param-parsing.git",
     "license": "BSD3",
     "source-directories": [
         "src"
