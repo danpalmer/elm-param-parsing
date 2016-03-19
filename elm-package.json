@@ -1,6 +1,6 @@
 {
     "version": "1.0.1",
-    "summary": "Shameless rip-off from jessitron, amitaibu, and andybalaam, re-uploaded for 0.16",
+    "summary": "Reupload for 0.16, original by jessitron, amitaibu, and andybalaam",
     "repository": "https://github.com/danpalmer/elm-param-parsing.git",
     "license": "BSD3",
     "source-directories": [
